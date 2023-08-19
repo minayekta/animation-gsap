@@ -416,7 +416,7 @@ html,body{
 .page5-circle{
     width: 60vh;
     height: 60vh;
-    background-color: rgb(93, 93, 242);
+    background-color: rgb(242, 93, 150);
     position: absolute;
     pointer-events: none;
     /* z-index: ; */

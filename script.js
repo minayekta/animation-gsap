@@ -40,7 +40,7 @@ function Anim(){
             scroller:"#main",
             scrub:true,
             // markers:true,
-            start:"top -.1px",
+            start:"top -1px",
             end:"top -300%",
             pin:true
         }
