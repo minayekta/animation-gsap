@@ -253,7 +253,7 @@ html,body{
     font-size: 3vmax;
     font-style: italic;
 }
-#page3{
+#section3{
     width: 100%;
     height: 100vh;
     background-color: #FFC228;
@@ -263,7 +263,7 @@ html,body{
     overflow: hidden;
     position: relative;
 }
-.page3-center{
+.section3-center{
     width: 55%;
     height: 70%;
     /* background-color: aqua; */
@@ -273,14 +273,14 @@ html,body{
     background-position: center;
     background-size: cover;
 }
-.page3-center img{
+.section3-center img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     position: relative;
     /* z-index: -9; */
 }
-.page3-center-cover{
+.section3-center-cover{
     width: 100%;
     /* height: 100%; */
     display: flex;
@@ -289,7 +289,7 @@ html,body{
     z-index: 999;
     top: 70vh;
 }
-.page3-center-cover img{
+.section3-center-cover img{
     width: 55vw;
     height: 70vh;
     position: relative;
@@ -299,7 +299,7 @@ html,body{
     background-color: #ffc2287f;
     object-fit: cover;
 }
-#page3 h1{
+#section3 h1{
     /* font-size: 10vmax; */
     font-size: 16vmax;
     position: absolute;
@@ -311,7 +311,7 @@ html,body{
 }
 
 /* // page 4  */
-#page4{
+#section4{
     width: 100%;
     height: 120vh;
     display: flex;
@@ -319,20 +319,20 @@ html,body{
     justify-content: center;
     background-color: #FFC228;
 }
-#page4 h1{
+#section4 h1{
     font-size: 2.7vmax;
     line-height: 1.1;
     width: 50%;
     margin-bottom: 10%;
 }
-#page4 h1 span{
+#section4 h1 span{
     color: #edb016;
     transition: all ease .2s;
 }
 
 
 /* // page 5  */
-#page5{
+#section5{
     width: 100%;
     height: 100vh;
     background-position: center;
@@ -343,7 +343,7 @@ html,body{
     overflow: hidden;
     background-image: url(https://bcgbrighthouse.com/wp-content/themes/brighthouse-wp/assets/img/map.png);
 }
-.page5-cover{
+.section5-cover{
     width: 100%;
     height: 100%;
     position: absolute;
@@ -353,7 +353,7 @@ html,body{
     display: flex;
     /* z-index: 999; */
 }
-.page5-left{
+.section5-left{
     width: 50%;
     height: 100%;
     padding-left: 18%;
@@ -366,17 +366,17 @@ html,body{
     position: relative;
     z-index: 99;
 }
-.page5-left h1{
+.section5-left h1{
     font-size: 4vmax;
     /* font-weight: 600; */
     line-height: 1;
     width: 80%;
 }
-.page5-left p{
+.section5-left p{
     font-size: 1.3vmax;
     width: 85%;
 }
-.page5-right{
+.section5-right{
     width: 50%;
     height: 100%;
     display: flex;
@@ -387,33 +387,33 @@ html,body{
     position: relative;
     z-index: 99;
 }
-.page5-right h3{
+.section5-right h3{
     font-size: 1.3vmax;
     font-weight: 700;
     margin-bottom: 20px;
 }
-.page5-card{
+.section5-card{
     width: 80%;
     height: 20%;
     border-top: 1.5px solid gray;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}.page5-card:last-child{
+}.section5-card:last-child{
     width: 80%;
     height: 20%;
     border-bottom: 1.5px solid gray;
 }
-.page5-card h1{
+.section5-card h1{
     font-size: 6vmax;
 }
-.page5-card p{
+.section5-card p{
     font-size: 1.4vmax;
     line-height: 1;
     width: 20%;
     text-align: right;
 }
-.page5-circle{
+.section5-circle{
     width: 60vh;
     height: 60vh;
     background-color: rgb(242, 93, 150);
@@ -427,7 +427,7 @@ html,body{
 }
 
 /* // page 6   */
-#page6{
+#section6{
     width: 100%;
     height: 100vh;
     position: relative;
@@ -436,7 +436,7 @@ html,body{
     flex-direction: column;
     justify-content: center;
 }
-#page6 .slide{
+#section6 .slide{
     /* width: 100%; */
     height: 25vh;
     display: flex;
@@ -452,7 +452,7 @@ html,body{
     gap: 20px;
     
 }
-.page6-right{
+.section6-right{
     justify-content: right;
 }
 #slider h1{
@@ -466,7 +466,7 @@ html,body{
     height: 8vmax;
     border-radius: 50%;
 }
-.page6-cover{
+.section6-cover{
     width: 100%;
     height: 100%;
     position: absolute;
@@ -477,13 +477,13 @@ html,body{
     align-items: center;
     justify-content: center;
 }
-.page6-cover-center{
+.section6-cover-center{
     width: 75vh;
     height: 75vh;
     border-radius: 50%;
     background-color: #edb016;
 }
-.page6-rotate{
+.section6-rotate{
     width:145vh;
     height:145vh;
     position: absolute;
@@ -493,7 +493,7 @@ html,body{
     /* background-color: blueviolet; */
     border-radius: 50%;
 }
-.page6-line{
+.section6-line{
     width: 100%;
     height: 75vh;
     /* background-color: brown; */

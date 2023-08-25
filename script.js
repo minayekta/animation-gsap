@@ -34,9 +34,9 @@ function Loco(main){
 
 Anim();
 function Anim(){
-    gsap.to("#page3",{
+    gsap.to("#section3",{
         scrollTrigger:{
-            trigger:"#page3",
+            trigger:"#section3",
             scroller:"#main",
             scrub:true,
             // markers:true,
@@ -45,9 +45,9 @@ function Anim(){
             pin:true
         }
     })
-    gsap.to(".page3-center-cover",{
+    gsap.to(".section3-center-cover",{
         scrollTrigger:{
-            trigger:"#page3",
+            trigger:"#section3",
             scroller:"#main",
             scrub:true,
             // markers:true,
@@ -59,13 +59,13 @@ function Anim(){
     })
 
     clt = ""
-    document.querySelector("#page4 h1").textContent.split("").forEach(h1=>{
+    document.querySelector("#section4 h1").textContent.split("").forEach(h1=>{
         clt += `<span>${h1}</span>`
-        document.querySelector("#page4 h1").innerHTML = clt;
+        document.querySelector("#section4 h1").innerHTML = clt;
     })
-    gsap.to("#page4",{
+    gsap.to("#section4",{
         scrollTrigger:{
-            trigger:"#page4",
+            trigger:"#section4",
             scroller:"#main",
             scrub:true,
             start:"top 0%",
@@ -73,9 +73,9 @@ function Anim(){
             pin:true
         }
     })
-    gsap.to("#page4 h1 span",{
+    gsap.to("#section4 h1 span",{
         scrollTrigger:{
-            trigger:"#page4",
+            trigger:"#section4",
             scroller:"#main",
             scrub:true,
             start:"top 0%",
@@ -85,9 +85,9 @@ function Anim(){
         stagger:.4,
         duration:2
     })
-    gsap.to("#page4",{
+    gsap.to("#section4",{
         scrollTrigger:{
-            trigger:"#page5",
+            trigger:"#section5",
             scroller:"#main",
             scrub:true,
             start:"top 35%",
@@ -97,7 +97,7 @@ function Anim(){
     })
     gsap.to("#nav a",{
         scrollTrigger:{
-            trigger:"#page5",
+            trigger:"#section5",
             scroller:"#main",
             scrub:true,
             start:"top 25%",
@@ -106,15 +106,15 @@ function Anim(){
         color:"black"
     })
 
-    document.querySelector("#page5").addEventListener("mousemove",dets=>{
-        let x = document.querySelector(".page5-circle").offsetWidth;
-        let y = document.querySelector(".page5-circle").offsetHeight;
-        document.querySelector(".page5-circle").style.transform = `translate(${dets.pageX - x/2}px,${dets.pageY - y/2}px)`;
+    document.querySelector("#section5").addEventListener("mousemove",dets=>{
+        let x = document.querySelector(".section5-circle").offsetWidth;
+        let y = document.querySelector(".section5-circle").offsetHeight;
+        document.querySelector(".section5-circle").style.transform = `translate(${dets.pageX - x/2}px,${dets.pageY - y/2}px)`;
     })
 
-    gsap.to("#page6",{
+    gsap.to("#section6",{
         scrollTrigger:{
-            trigger:"#page6",
+            trigger:"#section6",
             scroller:"#main",
             scrub:true,
             start:"top 0%",
@@ -122,9 +122,9 @@ function Anim(){
             pin:true
         }
     })
-    gsap.to(".page6-left #slider",{
+    gsap.to(".section6-left #slider",{
         scrollTrigger:{
-            trigger:"#page6",
+            trigger:"#section6",
             scroller:"#main",
             scrub:true,
             // markers:true,
@@ -134,9 +134,9 @@ function Anim(){
         },
         right:"100%"
     })
-    gsap.to(".page6-right #slider",{
+    gsap.to(".section6-right #slider",{
         scrollTrigger:{
-            trigger:"#page6",
+            trigger:"#section6",
             scroller:"#main",
             scrub:true,
             // markers:true,
@@ -146,9 +146,9 @@ function Anim(){
         },
         right:"-100%"
     })
-    gsap.to(".page6-cover",{
+    gsap.to(".section6-cover",{
         scrollTrigger:{
-            trigger:"#page6 .page6-cover",
+            trigger:"#section6 .section6-cover",
             scroller:"#main",
             scrub:true,
             markers:true,
@@ -158,9 +158,9 @@ function Anim(){
         },
         top:0
     })
-    gsap.to(".page6-rotate",{
+    gsap.to(".section6-rotate",{
         scrollTrigger:{
-            trigger:"#page6 .page6-cover",
+            trigger:"#section6 .section6-cover",
             scroller:"#main",
             scrub:true,
             markers:true,
